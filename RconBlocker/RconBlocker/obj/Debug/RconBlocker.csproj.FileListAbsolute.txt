@@ -1,0 +1,12 @@
+c:\users\hossein\documents\visual studio 2015\Projects\RconBlocker\RconBlocker\bin\Debug\RconBlocker.exe.config
+c:\users\hossein\documents\visual studio 2015\Projects\RconBlocker\RconBlocker\obj\Debug\RconBlocker.csprojResolveAssemblyReference.cache
+c:\users\hossein\documents\visual studio 2015\Projects\RconBlocker\RconBlocker\obj\Debug\RconBlocker.frm_main.resources
+c:\users\hossein\documents\visual studio 2015\Projects\RconBlocker\RconBlocker\obj\Debug\RconBlocker.Properties.Resources.resources
+c:\users\hossein\documents\visual studio 2015\Projects\RconBlocker\RconBlocker\obj\Debug\RconBlocker.csproj.GenerateResource.Cache
+c:\users\hossein\documents\visual studio 2015\Projects\RconBlocker\RconBlocker\bin\Debug\RconBlocker.exe
+c:\users\hossein\documents\visual studio 2015\Projects\RconBlocker\RconBlocker\bin\Debug\RconBlocker.pdb
+c:\users\hossein\documents\visual studio 2015\Projects\RconBlocker\RconBlocker\obj\Debug\RconBlocker.exe
+c:\users\hossein\documents\visual studio 2015\Projects\RconBlocker\RconBlocker\obj\Debug\RconBlocker.pdb
+C:\Users\Hossein\Desktop\RconBlocker\RconBlocker\bin\Debug\RconBlocker.exe.config
+C:\Users\Hossein\Desktop\RconBlocker\RconBlocker\obj\Debug\RconBlocker.exe
+C:\Users\Hossein\Desktop\RconBlocker\RconBlocker\obj\Debug\RconBlocker.pdb
