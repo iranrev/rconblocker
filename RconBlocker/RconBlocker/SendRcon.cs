@@ -16,7 +16,6 @@ namespace RconBlocker
         string gameServerIP;
         int gameServerPort;
         int sleep;
-        //public void spamRcon(frm_main main,string rconCommand, string gameServerIP, string password, int gameServerPort)
         public void SendThis(frm_main main, string Command, string ServerIP, int ServerPort,int speed)
         {
             rconCommand = Command;
@@ -40,7 +39,6 @@ namespace RconBlocker
                     try
                     {
                         sendCommand(rconCommand, gameServerIP, "x", gameServerPort);
-                        //sendCommand(frm.txt_command.Text, frm.txt_ip.Text, "x", int.Parse(frm.txt_port.Text));
                         x++;
                         frm.SetCounterValue(x);
                     }
@@ -49,7 +47,6 @@ namespace RconBlocker
                         spamming = false;
                         frm.SetbtnAction("Start Spam");
                         frm.ShowMessage("There was a Problem with Your Request", "Error");
-                        //frm.ShowMessage(e.ToString(),"Error");
                     }
                 }
             }
@@ -70,7 +67,6 @@ namespace RconBlocker
                         spamming = false;
                         frm.SetbtnAction("Start Spam");
                         frm.ShowMessage("There was a Problem with Your Request", "Error");
-                        //frm.ShowMessage(e.ToString(),"Error");
                     }
                 }
             }
@@ -98,30 +94,6 @@ namespace RconBlocker
             }
             return bufferSend;
         }
-        /*
-        public string sendRCON(string serverIp, int serverPort, string rconPassword, string rconCommand)
-        {
-
-            UdpClient client = new UdpClient();
-            client.Connect(serverIp, serverPort);
-
-
-            //send challenge command and get response
-            IPEndPoint RemoteIpEndPoint = new IPEndPoint(IPAddress.Any, 0);
-
-            //retrive number from challenge response 
-            //string challenge_rcon = Encoding.ASCII.GetString(bufferRec);
-            //challenge_rcon = string.Join(null, Regex.Split(challenge_rcon, "[^\\d]"));
-
-            //preparing rcon command to send
-            string command = "rcon " + " " + rconPassword + " " + rconCommand;
-            byte[] bufferSend = this.prepareCommand(command);
-
-            client.Send(bufferSend, bufferSend.Length);
-            byte[] bufferRec = client.Receive(ref RemoteIpEndPoint);
-            return Encoding.ASCII.GetString(bufferRec);
-        }
-        */
         public void checkRCON()
         {
             try
@@ -159,7 +131,6 @@ namespace RconBlocker
             client.Connect(IPAddress.Parse(gameServerIP), gameServerPort);
 
             string command;
-            //command = "cron " + password + " " + rconCommand;
             command = "rcon " + password + " " + rconCommand;
             byte[] bufferTemp = Encoding.ASCII.GetBytes(command);
             byte[] bufferSend = new byte[bufferTemp.Length + 4];
